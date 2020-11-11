@@ -73,7 +73,7 @@ body{
   height: 1500px;
   /*background-color: #292442;*/
   display: block;
-  background-image: url(image1.png);
+  background-image: url('image1.png');
   
   background-repeat: no-repeat;
   background-position: bottom center;
