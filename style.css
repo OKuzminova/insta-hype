@@ -189,7 +189,16 @@ svg rect{
   background-color: #944ca0;
   box-shadow: 5px 5px 25px 2px #944ca0;
 }
-
+.btn3{
+  background-color: #01ffff;
+  box-shadow: 13px 14px 24px 2px #724daf;
+  color: black;
+}
+.btn4{
+  background-color: #01ffff;
+  box-shadow: 9px 11px 11px 2px #724daf;
+  color: black;
+}
 .btn2:hover{
   background-color: #01ffff;
   box-shadow: 5px 5px 25px 2px #01ffff;
@@ -262,7 +271,51 @@ h2{
 .block2 p{
   width: 80%;
 }
-
+.block3-money{
+  padding-top: 1%;
+  margin-top: 30px; 
+  width: 80%;
+  text-align: justify ;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+.block-item-money {
+  background-color: white;
+  border-radius: 10%;
+  padding: 50px 18px 2px;
+  width: 40%;
+  border: 7px solid #01ffff;
+}
+.block-item-money:hover{
+  background-color: black;
+  color: white;
+  border: 7px solid #01ffff;
+   box-shadow: 5px 5px 25px 2px #01ffff;
+}
+.money-h3{
+  font-size: 30px;
+  text-align: center;
+}
+.price{
+  font-size: 45px; 
+  padding-top: 30px;
+  text-align: center;
+}
+.money-about{
+  padding-top: 20px; 
+  font-size: 20px;
+  text-align: center;
+}
+.money-about-2{
+  padding-top: 20px; 
+  font-size: 18px;
+  text-align: center;
+}
+.txt-price{
+   font-size: 20px;
+   padding-bottom: 20px;
+}
 .block3{
   position: relative;
   display: block;
@@ -277,7 +330,6 @@ h2{
   width: 80%;
   text-align: justify ;
   display: flex;
-
   flex-wrap:wrap;
   justify-content:center;
 }
@@ -286,6 +338,13 @@ h2{
   border-radius: 12%;
   padding: 5px 18px 20px;
   width: 20%;
+}
+.block-item-2{
+  border: 3px white solid;
+  background-color: white;
+  border-radius: 10%;
+  padding: 5px 18px 2px;
+  width: 40%;
 }
 .block-item__img{
   width: 160px;
@@ -311,13 +370,21 @@ padding-top: 1%;
   text-align: center;
  padding-bottom: 20px;
 }
+.back-money{
+  width: 50%;
+  border: 17px solid #724daf;
+  padding: 50px 60px;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
 .program{
   text-align: left;
   margin-bottom: 20px;
   line-height: 22px;
 }
 .program__learn{
-  /*border: 2px solid black;*/
+  border: 2px solid black;
   padding: 3px 8px; 
   border-radius: 10%;
   margin-right: 15px;
@@ -362,6 +429,37 @@ padding-top: 1%;
     margin-bottom:30px;
     padding-bottom: 50px;
   }
+  .block-item-money{
+    flex-direction:column-reverse;
+    width: 80%;
+    margin-bottom:90px;
+    padding-bottom: 50px;
+     padding: 50px 30px 2px;
+  }
+  .block-item-money:hover{
+  background-color: black;
+  color: white;
+}
+  .money-h3{
+  font-size: 35px;
+  text-align: center;
+}
+.price{
+  font-size: 65px; 
+  padding-top: 30px;
+  text-align: center;
+}
+.money-about{
+  padding-top: 28px; 
+  font-size: 25px;
+  text-align: center;
+}
+.money-about-2{
+  padding-top: 30px; 
+  padding-bottom: 30px;
+  font-size: 26px;
+  text-align: center;
+}
   .mr{
     margin-top: 30px;
   }
@@ -425,3 +523,20 @@ height: 1580px;
  font-size: 40px;
  line-height: 50px;
   }
+  .block-main{
+    margin-bottom: 50px;
+  }
+  .txt-price{
+    font-size: 35px;
+ line-height: 50px;
+  }
+  .block-item-2{
+  border: 3px white solid;
+  background-color: white;
+  border-radius: 7%;
+  padding: 5px 18px 20px;
+  width: 60%;
+}
+.size30{
+  font-size: 35px;
+}
