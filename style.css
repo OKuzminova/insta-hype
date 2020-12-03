@@ -286,6 +286,7 @@ h2{
   padding: 50px 18px 2px;
   width: 40%;
   border: 7px solid #01ffff;
+  box-shadow: 5px 5px 25px 2px #01ffff;
 }
 .block-item-money:hover{
   background-color: black;
